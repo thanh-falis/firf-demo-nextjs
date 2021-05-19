@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  text-align: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +14,45 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.LoginForm {
+  
+  margin-top: 50px;
+ 
+  
+}
+.email {
+  margin-top: 50px;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.password {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.content { 
+  height: auto;
+  width: auto;
+  padding-left: 580px;
+  padding-right: 580px;
+  text-align: center;
+
+}
+
+.content .sub {
+  background-color: rgb(97, 174, 236);
+  height: 190px;
+}
+
+.btnsubmit {
+  width: 90px;
+  height: 25px;
+  font-size: 18px;
 }
